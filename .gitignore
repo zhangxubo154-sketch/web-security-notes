@@ -1,0 +1,26 @@
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# 抓包与靶场临时文件，不入库
+*.har
+*.burp
+*.session
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 不要把可能含敏感信息的文件提交上来
+# （自己搭建靶场时的数据库导出、真实站点数据等）
+*.sql
+*.sqlite
+*.db
+dumps/
